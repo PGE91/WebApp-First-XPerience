@@ -60,10 +60,13 @@ first_xperience/
 
 ```bash
 pip install -r requirements.txt
+```
 
 Puis lancez l'application via le point d'entrée :
 
+```bash
 streamlit run Accueil.py
+```
 
 ## Construit avec
 Streamlit : Interface front et routing
