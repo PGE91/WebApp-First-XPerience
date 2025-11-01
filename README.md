@@ -1,48 +1,62 @@
-# WebApp-First-XPerience
-First Xperience — Application de suivi de recherche d’emploi 
-Présentation et objectifs du projet
-First Xperience est un prototype d’application web pensé pour accompagner les personnes en recherche d’emploi, en particulier les jeunes diplômés. Elle permet aux demandeurs d'emploi d'organiser, suivre et optimiser leurs candidatures grâce à un tableau de bord intelligent, des statistiques personnalisées, un outil de préparation aux entretiens, et l'accès direct à des offres d'emploi en ligne.
-Ce projet a été développé en Python à l'aide du framework Streamlit.
-Fonctionnalités principales 
-Création et gestion de compte : Inscription / connexion / déconnexion (authentification sécurisée grâce au hachage SHA-256 des mot de passe)
+# First Xperience — Application de suivi de recherche d’emploi
 
-Tableau de bord : Visualisation de toutes vos candidatures
+## Présentation
 
-Ajout de candidatures : Formulaire complet (entreprise, poste, secteur, date, notes, statut)
+**First Xperience** est un prototype d’application web destiné à accompagner les personnes en recherche d’emploi, notamment les jeunes diplômés.
 
-Statistiques : Taux de réponse, délai moyen, secteurs qui répondent le plus
+L'outil permet :
 
-Préparation entretien : Checklists, notes par entreprise, questions types
+✅ d'organiser et suivre ses candidatures  
+✅ d'analyser sa recherche via des statistiques personnalisées  
+✅ de préparer ses entretiens  
+✅ et de rechercher des offres d'emploi en ligne  
 
-Offres d’emploi via API externe : Recherche d’offres selon un poste (API RapidAPI)
+Développé en **Python** avec le framework **Streamlit**.
 
-Structure du Dépôt
+---
+
+## Fonctionnalités principales
+
+### Gestion des utilisateurs
+- Création de compte / Connexion / Déconnexion  
+- Mot de passe sécurisé via **hachage SHA-256**
+
+### Tableau de bord & suivi
+- Suivi complet des candidatures
+- Statuts personnalisés
+
+### Ajout de candidatures
+- Formulaire détaillé : entreprise, poste, secteur, date, notes, statut
+
+### Statistiques
+- Taux de réponse
+- Délai moyen
+- Secteurs les plus réactifs
+
+### Préparation à l'entretien
+- Checklists
+- Notes par entreprise
+- Questions types
+
+### Offres d'emploi via API externe
+- Recherche d'offres selon un poste (API **RapidAPI — jSearch**)
+
+---
+
+## Structure du dépôt
+```plaintext
 first_xperience/
-├── Accueil.py            <-- Point d'entrée
+├── Accueil.py                <-- Point d’entrée Streamlit
 ├── pages/
 │   ├── connexion.py
 │   ├── creation_compte.py
 │   ├── Mon_suivi.py
-│   └── Offres_emploi.py           
-├── donnees/              
+│   └── Offres_emploi.py
+├── donnees/
 │   ├── candidatures.csv
 │   ├── notes_entretien.csv
 │   ├── utilisateurs.csv
 ├── image_accueil.png
 └── requirements.txt
 
-Lancement et exécution
-pip install -r requirements.txt
-Puis lancez l'application via le point d'entrée :
-streamlit run Accueil.py
 
-Construit avec
-Streamlit : Interface front et routing
-Pandas : Gestion des données
-Python / CSV : Stockage local des comptes, candidatures et notes entretien
-RapidAPI (jSearch) : Recherche d’offres d’emploi
-Pathlib : Gestion de fichier
-
-Auteurs
-GRILLON Pauline
-BA Ibrahima
