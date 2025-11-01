@@ -51,7 +51,7 @@ first_xperience/
 │   ├── utilisateurs.csv
 ├── image_accueil.png
 └── requirements.txt
-
+```
 ---
 
 ## Installation & Exécution
