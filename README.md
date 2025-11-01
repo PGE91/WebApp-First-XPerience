@@ -3,15 +3,8 @@
 ## Présentation
 
 **First Xperience** est un prototype d’application web destiné à accompagner les personnes en recherche d’emploi, notamment les jeunes diplômés.
-
-L'outil permet :
-
-✅ d'organiser et suivre ses candidatures  
-✅ d'analyser sa recherche via des statistiques personnalisées  
-✅ de préparer ses entretiens  
-✅ et de rechercher des offres d'emploi en ligne  
-
-Développé en **Python** avec le framework **Streamlit**.
+ Elle permet aux demandeurs d'emploi d'organiser, suivre et optimiser leurs candidatures grâce à un tableau de bord intelligent, des statistiques personnalisées, un outil de préparation aux entretiens, et l'accès direct à des offres d'emploi en ligne.
+Ce projet a été développé en Python à l'aide du framework Streamlit.
 
 ---
 
@@ -58,5 +51,29 @@ first_xperience/
 │   ├── utilisateurs.csv
 ├── image_accueil.png
 └── requirements.txt
+
+---
+
+## Installation & Exécution
+
+### Installer les dépendances
+
+```bash
+pip install -r requirements.txt
+
+Puis lancez l'application via le point d'entrée :
+
+streamlit run Accueil.py
+
+## Construit avec
+Streamlit : Interface front et routing
+Pandas : Gestion des données
+Python / CSV : Stockage local des comptes, candidatures et notes entretien
+RapidAPI (jSearch) : Recherche d’offres d’emploi
+Pathlib : Gestion de fichier
+
+## Auteurs
+GRILLON Pauline
+BA Ibrahima
 
 
