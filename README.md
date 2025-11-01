@@ -76,7 +76,7 @@ streamlit run Accueil.py
 - Pathlib : Gestion de fichier
 
 ## Auteurs
-GRILLON Pauline
+GRILLON Pauline,
 BA Ibrahima
 
 
