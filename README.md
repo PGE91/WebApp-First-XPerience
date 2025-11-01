@@ -69,11 +69,11 @@ streamlit run Accueil.py
 ```
 
 ## Construit avec
-Streamlit : Interface front et routing
-Pandas : Gestion des données
-Python / CSV : Stockage local des comptes, candidatures et notes entretien
-RapidAPI (jSearch) : Recherche d’offres d’emploi
-Pathlib : Gestion de fichier
+- Streamlit : Interface front et routing
+- Pandas : Gestion des données
+- Python / CSV : Stockage local des comptes, candidatures et notes entretien
+- RapidAPI (jSearch) : Recherche d’offres d’emploi
+- Pathlib : Gestion de fichier
 
 ## Auteurs
 GRILLON Pauline
